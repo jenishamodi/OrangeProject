@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: testLayer.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 1.02 sec <<< FAILURE!
+initsetup(testLayer.LoginTest)  Time elapsed: 0.715 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable must exist: D:\Jenisha\OrangeHRM\geckodriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:345)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:161)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:156)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:47)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:164)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:456)
+	at org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:100)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:111)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:101)
+	at basePackage.BaseOrangeHRMClass.initiation(BaseOrangeHRMClass.java:36)
+	at testLayer.LoginTest.initsetup(LoginTest.java:22)
+
